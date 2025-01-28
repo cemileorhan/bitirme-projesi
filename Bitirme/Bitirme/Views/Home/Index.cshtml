@@ -1,0 +1,92 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "_Layout";
+}
+@model IEnumerable<Bitirme.Models.Recipe>
+
+<div class="container mt-4">
+    <!-- Search Bar -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="input-group">
+                <input type="text" id="productSearch" class="form-control" placeholder="Search for products..." aria-label="Search for products..." style="border-radius: 30px 0 0 30px; border: 1px solid #343a40; background-color: #343a40; color: white;">
+                <div class="input-group-append">
+                    <button class="btn" type="button" style="background-color: #343a40; border: none; border-radius: 0 30px 30px 0;">
+                        <i class="fas fa-search" style="color: white;"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recipes Container -->
+    <div class="container" style="max-width: 1200px; margin: auto;">
+        <div class="row">
+            @foreach (var recipe in Model)
+            {
+                <div class="col-md-4 mb-4 product-item" data-name="@recipe.Title">
+                    <div class="card position-relative" style="height: 100%;">
+                        <img src="@recipe.ImageUrl" class="card-img-top" alt="@recipe.Title" style="width: 100%; height: 250px; object-fit: cover;">
+
+                        <!-- Favori İkonu -->
+                        <button class="btn btn-light position-absolute favorite-btn" data-recipe-id="@recipe.Id" style="top: 10px; right: 10px; border: none; background: transparent;">
+                            <i class="@((ViewBag.FavoriteRecipeIds != null && ViewBag.FavoriteRecipeIds.Contains(recipe.Id)) ? "fas fa-heart" : "far fa-heart") favorite-icon"
+                               style="color: red; font-size: 24px;"></i>
+                        </button>
+
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">
+                                <a href="/Home/Details/@recipe.Id" style="color: #dc3545;">@recipe.Title</a>
+                            </h5>
+                            <p class="card-text">@recipe.Description</p>
+                            <div class="container mt-auto">
+                                <div class="row text-center">
+                                    <div class="col-6 mb-2">
+                                        <i class="fas fa-clock" style="color: #dc3545;"></i>
+                                        <span>@recipe.CookingTime Mins</span>
+                                    </div>
+                                    <div class="col-6 mb-2">
+                                        <i class="fas fa-hourglass-start" style="color: #dc3545;"></i>
+                                        <span>@recipe.PreparationTime Mins</span>
+                                    </div>
+                                    <div class="col-6">
+                                        <i class="fas fa-utensils" style="color: #dc3545;"></i>
+                                        <span>@recipe.Servings Servings</span>
+                                    </div>
+                                    <div class="col-6">
+                                        <i class="fas fa-signal" style="color: #dc3545;"></i>
+                                        <span>@recipe.DifficultyLevel</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $(".favorite-btn").on("click", function () {
+            var button = $(this); // Tıklanan butonu seç
+            var recipeId = button.data("recipe-id");
+
+            $.post("/Home/AddOrRemoveFavorite", { recipeId: recipeId }, function (response) {
+                if (response.success) {
+                    // Favori durumu değiştiğinde simgeyi güncelle
+                    if (response.action === "added") {
+                        button.find(".favorite-icon").removeClass("far").addClass("fas"); // Dolu kalp
+                    } else if (response.action === "removed") {
+                        button.find(".favorite-icon").removeClass("fas").addClass("far"); // Boş kalp
+                    }
+                } else {
+                    alert("An error occurred while processing your request.");
+                }
+            }).fail(function () {
+                alert("Failed to communicate with the server.");
+            });
+        });
+    });
+</script>

@@ -1,0 +1,649 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bitirme.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Bitirme.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\apple-crumble.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\apple-crumble.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\apple-pie.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\apple-pie.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\asian-noodle-salad.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\asian-noodle-salad.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\baked-salmon.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\baked-salmon.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\baklava.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\baklava.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\banana-bread.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\banana-bread.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\beef-broccoli-stirfry.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\beef-broccoli-stirfry.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\beef-stroganoff.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\beef-stroganoff.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\beef-tacos.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\beef-tacos.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\beef-wellington.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\beef-wellington.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\beet-salad.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\beet-salad.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\bruschetta-mozzarella.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\bruschetta-mozzarella.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\bruschetta.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\bruschetta.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\buffalo-cauliflower-bites.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\buffalo-cauliflower-bites.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\butternut-squash-soup.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\butternut-squash-soup.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\caesar-salad.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\caesar-salad.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\cannoli.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\cannoli.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\caprese-salad-skewers.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\caprese-salad-skewers.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\caprese-salad.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\caprese-salad.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\caprese-skewers.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\caprese-skewers.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\cheesecake.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\cheesecake.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\chicken-alfredo.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\chicken-alfredo.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\chicken-caesar-salad.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\chicken-caesar-salad.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\chicken-cordon-bleu.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\chicken-cordon-bleu.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\chicken-fajitas.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\chicken-fajitas.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\chicken-noodle-soup.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\chicken-noodle-soup.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\chicken-parmesan.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\chicken-parmesan.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\chicken-tortilla-soup.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\chicken-tortilla-soup.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\chocolate-brownies.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\chocolate-brownies.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\chocolate-cake.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\chocolate-cake.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\chocolate-eclairs.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\chocolate-eclairs.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\chocolate-fondant.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\chocolate-fondant.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\chocolate-mousse.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\chocolate-mousse.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\clam-chowder.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\clam-chowder.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\cobb-salad.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\cobb-salad.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\creme-brulee.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\creme-brulee.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\crepes.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\crepes.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\deviled-eggs.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\deviled-eggs.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\eggplant-parmesan.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\eggplant-parmesan.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\french-onion-soup.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\french-onion-soup.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\fruit-tart.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\fruit-tart.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\garlic-bread.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\garlic-bread.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\gazpacho.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\gazpacho.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\greek-quinoa-salad.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\greek-quinoa-salad.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\greek-salad.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\greek-salad.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\grilled-steak.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\grilled-steak.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\guacamole.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\guacamole.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\kale-caesar-salad.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\kale-caesar-salad.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\key-lime-pie.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\key-lime-pie.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\lamb-tagine.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\lamb-tagine.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\lasagna.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\lasagna.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\lemon-tart.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\lemon-tart.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\lentil-soup.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\lentil-soup.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\mango-sticky-rice.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\mango-sticky-rice.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\mediterranean-chickpea-salad.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\mediterranean-chickpea-salad.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\minestrone.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\minestrone.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\mini-crab-cakes.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\mini-crab-cakes.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\miso-soup.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\miso-soup.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\mulligatawny-soup.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\mulligatawny-soup.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\paella.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\paella.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\panna-cotta.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\panna-cotta.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\panzanella.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\panzanella.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\pavlova.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\pavlova.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\peach-cobbler.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\peach-cobbler.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\pork-chops-with-apples.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\pork-chops-with-apples.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\potato-leek-soup.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\potato-leek-soup.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\potato-skins.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\potato-skins.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\profiteroles.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\profiteroles.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\pumpkin-soup.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\pumpkin-soup.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\quinoa-salad.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\quinoa-salad.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\raspberry-cheesecake.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\raspberry-cheesecake.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\shepherds-pie.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\shepherds-pie.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\shrimp-scampi.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\shrimp-scampi.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\spaghetti-bolognese.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\spaghetti-bolognese.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\spaghetti-carbonara.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\spaghetti-carbonara.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\spinach-artichoke-dip.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\spinach-artichoke-dip.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\spinach-salad.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\spinach-salad.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\split-pea-soup.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\split-pea-soup.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\spring-rolls.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\spring-rolls.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\stuffed-bell-peppers.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\stuffed-bell-peppers.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\stuffed-chicken-breast.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\stuffed-chicken-breast.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\stuffed-grape-leaves.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\stuffed-grape-leaves.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\stuffed-jalapenos.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\stuffed-jalapenos.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\stuffed-mushrooms.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\stuffed-mushrooms.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\stuffed-olives.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\stuffed-olives.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\stuffed-zucchini-boats.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\stuffed-zucchini-boats.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\thai-green-papaya-salad.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\thai-green-papaya-salad.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\tiramisu.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\tiramisu.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\tom-yum-soup.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\tom-yum-soup.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\tomato-basil-soup.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\tomato-basil-soup.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\vegetable-curry.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\vegetable-curry.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\vegetable-stir-fry.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\vegetable-stir-fry.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\recipes\\watermelon-feta-salad.jpg",
+      "PackagePath": "staticwebassets\\images\\recipes\\watermelon-feta-salad.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\site-icon.jpg",
+      "PackagePath": "staticwebassets\\images\\site-icon.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\start.jpg",
+      "PackagePath": "staticwebassets\\images\\start.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\images\\user-icon.jpg",
+      "PackagePath": "staticwebassets\\images\\user-icon.jpg"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Bitirme.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Bitirme.props",
+      "PackagePath": "build\\Bitirme.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Bitirme.props",
+      "PackagePath": "buildMultiTargeting\\Bitirme.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Bitirme.props",
+      "PackagePath": "buildTransitive\\Bitirme.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,156 @@
+﻿@model IEnumerable<Bitirme.Models.Favorite>
+<style>
+    /* Slider kontrollerinin konumu ve tasarımı */
+    #recommendedCarousel .carousel-control-prev,
+    #recommendedCarousel .carousel-control-next {
+        width: 5%; 
+        top: 50%; 
+        transform: translateY(-50%);
+    }
+
+    #recommendedCarousel .carousel-control-prev {
+        left: -2rem;
+    }
+
+    #recommendedCarousel .carousel-control-next {
+        right: -2rem; 
+    }
+
+    #recommendedCarousel .carousel-control-prev-icon,
+    #recommendedCarousel .carousel-control-next-icon {
+        background-color: #dc3545;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+
+    #recommendedCarousel .card {
+        margin-bottom: 20px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        height: 100%; 
+    }
+
+    #recommendedCarousel .card img {
+        height: 200px; 
+        object-fit: cover; 
+    }
+
+    #recommendedCarousel .card-body {
+        min-height: 150px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    #recommendedCarousel .card-title {
+        color: #dc3545;
+    }
+    
+</style>
+
+<div class="container mt-4">
+    <!-- Başlık -->
+    <h2>Your Recipe Book</h2>
+    <hr />
+    <!-- Recipes Container -->
+    <div class="container" style="max-width: 1200px; margin: auto;">
+        <div class="row">
+            @foreach (var favorite in Model)
+            {
+                <div class="col-md-4 mb-4 product-item" data-name="@favorite.Recipe.Title">
+                    <div class="card position-relative" style="height: 100%;">
+                        <!-- Görsel -->
+                        <img src="@Url.Content("~/images/recipes/" + favorite.Recipe.ImageUrl.Replace("images/recipes/", ""))"
+                             class="card-img-top"
+                             alt="@favorite.Recipe.Title"
+                             style="width: 100%; height: 250px; object-fit: cover;">
+
+                        <!-- Favori İkonu -->
+                        <button class="btn btn-light position-absolute favorite-btn" data-recipe-id="@favorite.Recipe.Id" style="top: 10px; right: 10px; border: none; background: transparent;">
+                            <i class="fas fa-heart favorite-icon" style="color: red; font-size: 24px;"></i>
+                        </button>
+
+                        <!-- Tarif Bilgileri -->
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">
+                                <a href="/Home/Details/@favorite.Recipe.Id" style="color: #dc3545;">@favorite.Recipe.Title</a>
+                            </h5>
+                            <p class="card-text">@favorite.Recipe.Description</p>
+                            <div class="container mt-auto">
+                                <div class="row text-center">
+                                    <div class="col-6 mb-2">
+                                        <i class="fas fa-clock" style="color: #dc3545;"></i>
+                                        <span>@favorite.Recipe.CookingTime Mins</span>
+                                    </div>
+                                    <div class="col-6 mb-2">
+                                        <i class="fas fa-hourglass-start" style="color: #dc3545;"></i>
+                                        <span>@favorite.Recipe.PreparationTime Mins</span>
+                                    </div>
+                                    <div class="col-6">
+                                        <i class="fas fa-utensils" style="color: #dc3545;"></i>
+                                        <span>@favorite.Recipe.Servings Servings</span>
+                                    </div>
+                                    <div class="col-6">
+                                        <i class="fas fa-signal" style="color: #dc3545;"></i>
+                                        <span>@favorite.Recipe.DifficultyLevel</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <!-- Öneriler Slider -->
+    <div class="mt-5">
+        <h3>Recommended Recipes for You</h3>
+        <hr />
+        <div id="recommendedCarousel" class="carousel slide mt-4" data-ride="carousel">
+            <div class="carousel-inner">
+                @if (ViewBag.RecommendedRecipes != null)
+                {
+                    var counter = 0; 
+                    for (var i = 0; i < ViewBag.RecommendedRecipes.Count; i += 3)
+                    {
+                        <div class="carousel-item @(counter == 0 ? "active" : "")">
+                            <div class="row">
+                                @for (var j = i; j < i + 3 && j < ViewBag.RecommendedRecipes.Count; j++)
+                                {
+                                    var recipe = ViewBag.RecommendedRecipes[j];
+                                    <div class="col-md-4">
+                                        <div class="card mx-auto" style="width: 18rem;">
+                                            <img class="card-img-top" src="@Url.Content("~/images/recipes/" + recipe.ImageUrl.Replace("images/recipes/", ""))"
+                                                 alt="@recipe.Title" style="height: 200px; object-fit: cover;">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title">@recipe.Title</h5>
+                                                <p class="card-text">@recipe.Description</p>
+                                                <a href="/Home/Details/@recipe.Id" class="btn btn-danger">View Recipe</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        counter++;
+                    }
+                }
+                else
+                {
+                    <p>No recommendations available at the moment.</p>
+                }
+            </div>
+            <!-- Slider Kontrolleri -->
+            <a class="carousel-control-prev" href="#recommendedCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#recommendedCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>

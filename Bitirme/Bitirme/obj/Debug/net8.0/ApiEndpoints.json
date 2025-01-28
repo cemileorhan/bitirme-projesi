@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Bitirme.Controllers.ChatController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Chat/sendMessage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Bitirme.Controllers.ChatRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

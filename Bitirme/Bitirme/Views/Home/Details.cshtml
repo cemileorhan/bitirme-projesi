@@ -1,0 +1,341 @@
+﻿@model Bitirme.Models.Recipe
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "_Layout";
+}
+
+@section Styles {
+    <style>
+        .container {
+            padding-bottom: 30px;
+        }
+
+        .recipe-header {
+            background-color: #ffffff;
+            color: #dc3545;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: 2px solid #dc3545;
+            display: flex;
+            align-items: center; /* Dikey ortalama */
+        }
+
+            .recipe-header img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 5px;
+            }
+
+        .content-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .action-section {
+            display: flex;
+            flex-direction: row; 
+            align-items: center;
+            
+        }
+
+        .btn-primary {
+            background-color: #dc3545;
+            border: none;
+            margin-top: 10px 20px;
+        }
+
+            .btn-primary:hover {
+                background-color: #c82333;
+            }
+
+        .qr-code-container {
+            text-align: center;
+            margin-left: 200px;
+            border: 2px solid #c82333;
+            border-radius:5px;
+            padding:4px;
+        }
+
+            .qr-code-container h4 {
+                margin-bottom: 5px;
+            }
+
+        .rating-stars {
+            font-size: 24px;
+        }
+
+        .qr-code-container img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .comments-section {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #dc3545;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+            .comments-section h2, .comments-section h3 {
+                margin-bottom: 20px;
+                color: #dc3545;
+            }
+
+        .media {
+            margin-bottom: 20px;
+            padding: 10px 0;
+        }
+
+        .form-group {
+            margin-top: 15px;
+        }
+
+        .btn-primary {
+            background-color: #dc3545;
+            border: none;
+            margin-top: 15px;
+        }
+
+            .btn-primary:hover {
+                background-color: #c82333;
+            }
+
+        .star {
+            font-size: 24px;
+            color: #ccc;
+            cursor: pointer;
+        }
+
+            .star.selected {
+                color: #dc3545;
+            }
+
+        .rating-stars {
+            font-size: 24px;
+        }
+
+        .media h5 {
+            font-size: 14px;
+        }
+
+        .media p {
+            font-size: 13px;
+        }
+
+        .btn-sm {
+            font-size: 12px;
+        }
+
+        .media-body {
+            font-size: 13px;
+        }
+    </style>
+}
+
+<div class="container mt-5">
+    <div class="recipe-header">
+        <div class="col-md-6">
+            <img src="~/@Model.ImageUrl" alt="Recipe Image" class="img-fluid">
+        </div>
+
+        <div class="col-md-6 content-section">
+            <h1>@Model.Title</h1>
+            <p class="text-muted">Category: <strong>@Model.Category.Name</strong></p>
+            <p class="lead">@Model.Description</p>
+
+            <div class="action-section">
+                <a href="/Cooking/Start?recipeId=@Model.Id" class="btn btn-primary btn-lg"><i class="fas fa-utensils"></i> Start Cooking</a>
+
+                <!-- QR Kod Alanı -->
+                <div class="qr-code-container">
+                    <h4>QR Code:</h4>
+                    @if (Model.QrCodeImage != null)
+                    {
+                        <!-- QR Kod Görüntüsü -->
+                        <img src="data:image/png;base64,@Convert.ToBase64String(Model.QrCodeImage)" alt="QR Code" class="img-fluid" />
+                    }
+                    else
+                    {
+                        <form asp-action="GenerateRecipeQrCode" method="post">
+                            <input type="hidden" name="recipeId" value="@Model.Id" />
+                            <button type="submit" class="btn btn-secondary">Generate QR Code</button>
+                        </form>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="average-rating mt-3">
+        <h6>Average Rating: @ViewData["AverageRating"] / 5</h6>
+        <div class="rating-stars">
+            @for (int i = 0; i < (int)Math.Floor((double)ViewData["AverageRatingValue"]); i++)
+            {
+                <span class="fa fa-star checked" style="color: #dc3545;"></span>
+            }
+            @if ((double)ViewData["AverageRatingValue"] % 1 >= 0.5)
+            {
+                <span class="fa fa-star-half-alt" style="color: #dc3545;"></span>
+            }
+            @for (int i = (int)Math.Floor((double)ViewData["AverageRatingValue"]) + 1; i <= 5; i++)
+            {
+                <span class="fa fa-star" style="color: #ccc;"></span>
+            }
+        </div>
+    </div>
+
+    <hr />
+    <div class="recipe-content">
+        <div class="row">
+            <!-- Ingredients Container -->
+            <div class="col-md-6">
+                <h2>Ingredients</h2>
+                <ul class="list-group list-group-flush">
+                    @foreach (var ingredient in Model.RecipeIngredients)
+                    {
+                        <li class="list-group-item d-flex justify-content-between align-items-center" style="padding-bottom:1px; padding-top:1px; margin-bottom: 5px;">
+                            <form asp-controller="Home" asp-action="AddToShoppingList" method="post">
+                                <input type="hidden" name="ingredientId" value="@ingredient.IngredientId" />
+                                <input type="hidden" name="quantity" value="@ingredient.Quantity" />
+                                <input type="hidden" name="recipeId" value="@Model.Id" />
+                                <button type="submit" class="btn btn-primary btn-sm" style="margin-bottom: 15px;">+</button>
+                                <span style="margin-left: 5px;">@ingredient.Quantity @ingredient.Ingredient.Name</span>
+                            </form>
+                        </li>
+                    }
+                </ul>
+            </div>
+
+            <!-- Instructions Container -->
+            <div class="col-md-6">
+                <h2>Instructions</h2>
+                <ol class="list-group list-group-flush">
+                    @foreach (var step in Model.Steps.OrderBy(s => s.StepNumber))
+                    {
+                        <li class="list-group-item">
+                            <strong>@step.StepNumber.</strong> @step.Description
+                        </li>
+                    }
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5 comments-section">
+        <div class="col-md-12">
+            <h2>Comments and Rating</h2>
+            @foreach (var comment in (IEnumerable<Bitirme.Models.Comment>)ViewData["OrderedComments"])
+            {
+                <div class="media mb-4" style="display: flex; align-items: flex-start; justify-content: space-between; padding: 10px; border-bottom: 1px solid #ddd;">
+                    <!-- Kullanıcı Resmi -->
+                    <div style="flex-shrink: 0; margin-right: 10px;">
+                        <img class="rounded-circle img-thumbnail" src="~/images/user-icon.jpg" alt="User Image" style="width: 50px; height: 50px;">
+                    </div>
+                    <!-- Yorum İçeriği -->
+                    <div class="media-body" style="flex-grow: 1;">
+                        <h5 class="mt-0" style="font-size: 14px; ">
+                            @comment.User.FirstName @comment.User.LastName
+                            <small class="text-muted" style="font-size: 12px;">   @comment.DateCreated?.ToString("g")</small>
+                        </h5>
+                        <p style="font-size: 13px; margin-bottom: 5px;">@comment.Text</p>
+                    </div>
+                    <!-- Silme Butonu -->
+                    @if (comment.UserId == User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value)
+                    {
+                        <div style="flex-shrink: 0;">
+                            <button type="button"
+                                    class="btn btn-danger btn-sm"
+                                    style="margin-left: 10px;"
+                                    data-toggle="modal"
+                                    data-target="#confirmDeleteModal"
+                                    onclick="setCommentIdToDelete(@comment.Id)">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    }
+
+                </div>
+            }
+
+            <!-- Yorum Ekleme Formu -->
+            <form asp-action="AddCommentAndRating" method="post">
+                <input type="hidden" name="recipeId" value="@Model.Id" />
+                <div class="form-group">
+                    <label for="commentText">Your Comment</label>
+                    <textarea class="form-control" name="commentText" id="commentText" rows="3" placeholder="Write your comment here..." style="font-size: 13px;"></textarea>
+                </div>
+                <div class="form-group mt-3">
+                    <input type="hidden" id="ratingValue" name="ratingValue" value="0"> <!-- Rating için gizli input -->
+                    <div class="rating" id="rating">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary mt-3" style="font-size: 14px;">
+                    <i class="fas fa-paper-plane"></i> Submit Comment & Rating
+                </button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const stars = document.querySelectorAll(".star");
+            const ratingValueInput = document.getElementById("ratingValue");
+
+            stars.forEach(star => {
+                star.addEventListener("click", function () {
+                    const rating = this.getAttribute("data-value");
+                    ratingValueInput.value = rating; 
+                    stars.forEach(s => {
+                        s.classList.toggle("selected", s.getAttribute("data-value") <= rating);
+                    });
+                });
+            });
+        });
+    </script>
+    <script>
+        function setCommentIdToDelete(commentId) {
+            document.getElementById('commentIdToDelete').value = commentId;
+        }
+    </script>
+
+
+    <!-- Silme Onayı Modal -->
+    <div class="modal fade" id="confirmDeleteModal" tabindex="-1" role="dialog" aria-labelledby="confirmDeleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmDeleteModalLabel">Yorumu Sil</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Bu yorumu silmek istediğinize emin misiniz?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Hayır</button>
+                    <form id="deleteCommentForm" asp-controller="Home" asp-action="DeleteComment" method="post">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="commentId" id="commentIdToDelete" />
+                        <button type="submit" class="btn btn-danger">Evet</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+

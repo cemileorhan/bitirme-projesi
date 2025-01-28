@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{491C36D9-94D5-4940-91C5-C2F6E5D827D5}|Bitirme\\Bitirme.csproj|D:\\Dersler\\BitirmeProjesi\\Bitirme\\bitirme\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{491C36D9-94D5-4940-91C5-C2F6E5D827D5}|Bitirme\\Bitirme.csproj|solutionrelative:bitirme\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{491C36D9-94D5-4940-91C5-C2F6E5D827D5}|Bitirme\\Bitirme.csproj|d:\\dersler\\bitirmeprojesi\\bitirme\\bitirme\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{491C36D9-94D5-4940-91C5-C2F6E5D827D5}|Bitirme\\Bitirme.csproj|solutionrelative:bitirme\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{491C36D9-94D5-4940-91C5-C2F6E5D827D5}|Bitirme\\Bitirme.csproj|d:\\dersler\\bitirmeprojesi\\bitirme\\bitirme\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{491C36D9-94D5-4940-91C5-C2F6E5D827D5}|Bitirme\\Bitirme.csproj|solutionrelative:bitirme\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\Program.cs",
+              "RelativeDocumentMoniker": "Bitirme\\Program.cs",
+              "ToolTip": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\Program.cs",
+              "RelativeToolTip": "Bitirme\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T10:12:19.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatService.cs",
+              "DocumentMoniker": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\Services\\ChatService.cs",
+              "RelativeDocumentMoniker": "Bitirme\\Services\\ChatService.cs",
+              "ToolTip": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\Services\\ChatService.cs",
+              "RelativeToolTip": "Bitirme\\Services\\ChatService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:55:17.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\appsettings.json",
+              "RelativeDocumentMoniker": "Bitirme\\appsettings.json",
+              "ToolTip": "D:\\Dersler\\BitirmeProjesi\\Bitirme\\Bitirme\\appsettings.json",
+              "RelativeToolTip": "Bitirme\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-20T14:47:57.916Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
